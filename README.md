@@ -1,12 +1,25 @@
-# UnlockSpy
+# 🔓 UnlockSpy
 
-UnlockSpy is a stealth background tool that sends a WhatsApp message whenever the device is unlocked. Built using Twilio and Python.
+UnlockSpy is a stealthy script that notifies the PC owner via WhatsApp **every time the computer is unlocked** — even after `Win + L`.
 
-## Features
-- Auto-silent execution on unlock
-- One-time message delivery
-- Self-closing after ping
-- Uses `.env` for safe credential storage
+---
 
-## Author
-Safi Ullah 🔒
+## ✨ Features
+
+- ✅ Runs invisibly using `pythonw`
+- 📲 Sends WhatsApp message using Twilio API
+- ⚡ Lightweight and fast
+- 🧠 No background process, runs only on unlock
+
+---
+
+## 🚀 Installation
+
+1. Clone this repo:
+```bash
+git clone https://github.com/yourname/unlockspy.git
+cd unlockspy
+
+
+# Security Note
+- This tool is for educational purposes. Always get user consent. Misuse may violate privacy or local laws.
