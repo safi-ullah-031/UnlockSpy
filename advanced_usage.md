@@ -9,4 +9,3 @@ You can convert the `.pyw` script into an `.exe` file to make it even more light
 - Use **PyInstaller** or **cx_Freeze** to convert the `.pyw` script into a standalone executable:
   ```bash
   pyinstaller --onefile --noconsole unlockspy.pyw
-```
