@@ -1,6 +1,6 @@
 # 🔓 UnlockSpy
 
-**UnlockSpy** is a lightweight, stealthy Python tool that sends a WhatsApp notification to the device owner every time the system is unlocked. It’s built for personal security and monitoring, without consuming unnecessary system resources.
+**UnlockSpy** is a lightweight, stealthy Python tool that sends a WhatsApp notification to the device owner whenever the system is unlocked. It’s built for personal security and monitoring, without consuming unnecessary system resources.
 
 ---
 
@@ -19,7 +19,7 @@
 
 - You leave your laptop at home or office.
 - Someone unlocks it (without your knowledge).
-- You instantly get a WhatsApp message with timestamp.
+- You instantly get a WhatsApp message with a timestamp.
 - Script exits silently. No trace. No tray icon. No console.
 
 ---
@@ -57,8 +57,8 @@ pip install -r requirements.txt
 ```
 
 ### 3. Setup .env File
-Update the .env file in the root directory with the required credentials.
-#### Test the script before moving to step 4.
+- Update the .env file in the root directory with the required credentials.
+- **Test the script before moving to step 4.**
 
 
 ### 4. Configure Task Scheduler
@@ -82,21 +82,12 @@ docs/setup_startup_shortcut.md
 UnlockSpy is powerful. Please use it ethically and legally.
 
 ❗ Must Follow:
-✅ Use only on your own devices
-✅ Inform any users if used on shared systems
-✅ Secure your .env file (never share your credentials)
-✅ Don’t run on machines without permission
-❌ Never use for surveillance or malicious spying
-❌ Never upload credentials to GitHub
-
----
-
-## 📬 Contact
-
-For support, questions, or improvements, feel free to reach out:
-
-- 📧 Email: safiullah@pafiastcommunity.com
-- 🐙 GitHub: [Safi-ullah-031](https://github.com/safi-ullah-031)  
+- Use only on your own devices
+- ✅ Inform any users if used on shared systems
+- ✅ Secure your .env file (never share your credentials)
+- ✅ Don’t run on machines without permission
+- ❌ Never use for surveillance or malicious spying
+- ❌ Never upload credentials to GitHub
 
 ---
 
@@ -134,16 +125,13 @@ Please be ethical. Always prioritize **user privacy** and **consent**.
 
 This project is licensed under the [MIT License](LICENSE).
 
-You are free to:
+---
 
-- ✅ Use this code in personal and commercial projects  
-- ✅ Modify and distribute with proper attribution  
-- ✅ Learn and build upon it for your own use
+## 📬 Contact
 
-**You must not:**
+For support, questions, or improvements, feel free to reach out:
 
-- ❌ Hold the original authors liable for any misuse or damage  
-- ❌ Use this software for unauthorized surveillance or malicious activity
-
-Please review the full [LICENSE](LICENSE) file for more details.
+- 📧 Email: safiullah@pafiastcommunity.com
+- 🐙 GitHub: [Safi-ullah-031](https://github.com/safi-ullah-031)  
+---
 
