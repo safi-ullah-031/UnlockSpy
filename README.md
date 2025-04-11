@@ -1,6 +1,6 @@
 # 🔓 UnlockSpy
 
-UnlockSpy is a stealthy script that notifies the PC owner via WhatsApp **every time the computer is unlocked** — even after `Win + L`.
+UnlockSpy is a stealthy script that notifies the PC owner via WhatsApp **every time the computer is unlocked**.
 
 ---
 
