@@ -10,4 +10,3 @@ You can convert the `.pyw` script into an `.exe` file to make it even more light
   ```bash
   pyinstaller --onefile --noconsole unlockspy.pyw
 ```
----
