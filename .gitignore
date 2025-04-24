@@ -178,3 +178,9 @@ cython_debug/
 .envrc
 .env
 .env.local
+
+# Virtual environment files
+.venv
+.venv.local
+.myenv
+.mypyvenv
