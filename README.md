@@ -1,6 +1,6 @@
 # 🔓 UnlockSpy
 
-**UnlockSpy** is a lightweight, stealthy Python tool that sends a WhatsApp notification to the device owner whenever the system is unlocked. It’s built for personal security and monitoring, without consuming unnecessary system resources.
+**UnlockSpy** is a lightweight, stealthy Python tool that sends a professional WhatsApp notification to the device owner whenever the system is unlocked. The notification includes the device name, IP address, MAC address, and timestamp. It's built for personal security and monitoring, without consuming unnecessary system resources.
 
 ---
 
@@ -19,7 +19,7 @@
 
 - You leave your laptop at home or office.
 - Someone unlocks it (without your knowledge).
-- You instantly get a WhatsApp message with a timestamp.
+- You instantly get a WhatsApp message with a timestamp, device name, IP address, and MAC address.
 - Script exits silently. No trace. No tray icon. No console.
 
 ---
@@ -57,9 +57,15 @@ pip install -r requirements.txt
 ```
 
 ### 3. Setup .env File
-- Update the .env file in the root directory with the required credentials.
-- **Test the script before moving to step 4.**
+- Update the .env file in the root directory with the required credentials and WhatsApp numbers in the correct format:
 
+```
+TWILIO_SID=your_account_sid
+TWILIO_TOKEN=your_auth_token
+TWILIO_WHATSAPP_NUMBER=whatsapp:+1234567890  # Your Twilio WhatsApp number
+MY_WHATSAPP=whatsapp:+1234567890  # Your WhatsApp number in international format
+```
+- **Test the script before moving to step 4.**
 
 ### 4. Configure Task Scheduler
 Follow the step-by-step setup here:
@@ -85,7 +91,7 @@ UnlockSpy is powerful. Please use it ethically and legally.
 - Use only on your own devices
 - ✅ Inform any users if used on shared systems
 - ✅ Secure your .env file (never share your credentials)
-- ✅ Don’t run on machines without permission
+- ✅ Don't run on machines without permission
 - ❌ Never use for surveillance or malicious spying
 - ❌ Never upload credentials to GitHub
 
