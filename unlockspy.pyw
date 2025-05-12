@@ -11,7 +11,7 @@ load_dotenv()
 ACCOUNT_SID = os.getenv("TWILIO_SID")
 AUTH_TOKEN = os.getenv("TWILIO_TOKEN")
 TO_NUMBER = os.getenv("MY_WHATSAPP")
-FROM_NUMBER = "[whatsapp:Twilio_whatsapp_number]"
+FROM_NUMBER = os.getenv("TWILIO_WHATSAPP_NUMBER")
 
 # Message content
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
